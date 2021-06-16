@@ -1,0 +1,218 @@
+/* images
+https://www.dropbox.com/s/f98sqtx5ijgixjz/USERS.png?raw=1
+https://www.dropbox.com/s/0gyh3ftoligpn3j/tealbar.jpg?raw=1
+https://www.dropbox.com/s/v53i9yyjzmu5ryi/SHOPPING_CART.svg?raw=1
+https://www.dropbox.com/s/i79hswxk9wiote8/Rectangle_5_copy_2.png?raw=1
+https://www.dropbox.com/s/9zp8b4i198rp4ci/Rectangle_4.png?raw=1
+https://www.dropbox.com/s/zbrnplgorz41q1l/plant.jpg?raw=1
+https://www.dropbox.com/s/7stwg3zlhh66ig1/MAGNIFYING_GLASS.svg?raw=1
+https://www.dropbox.com/s/iu0d0e801u80ejb/keyboardlayers.jpg?raw=1
+https://www.dropbox.com/s/3y10il9v8b557pa/keyboard.jpg?raw=1
+https://www.dropbox.com/s/cgph3ez6rv3ogdt/jumboimg.jpg?raw=1
+https://www.dropbox.com/s/izfpv998b2krt6z/headphones.jpg?raw=1 
+https://www.dropbox.com/s/vzdjk7vv76v3y8d/superteamimg.jpg?raw=1 
+https://www.dropbox.com/s/mthcj9279sagxry/tealrectangle.jpg?raw=1 */
+/* fonts
+nav and logo Montserrat
+1st p Kaushan script
+h1 montserrat
+button montserrat
+01 02 03 04 montserrat bold 700
+intro work about contacts montserrat regular 400
+main p roboto 400 */
+
+html {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.second-nav ul {
+  display: flex;
+  width: 100%;
+  padding: 180px 50px 10px 50px;
+}
+
+.second-nav img {
+  max-width: 15vw;
+}
+
+.aboutimg img {
+  width: 380px;
+  height: 250px;
+}
+
+/* .aboutimg {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.carousel {
+  width: 380px;
+  height: 250px;
+}
+
+.jumbotron {
+  background-image: url("https://www.dropbox.com/s/cgph3ez6rv3ogdt/jumboimg.jpg?raw=1");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-top: 65px;
+  padding: 10px 20px;
+}
+
+a {
+  color: white;
+}
+
+.navbar {
+  padding: 28px 100px 100px 100px;
+  margin: 0px;
+}
+
+.navbar-nav {
+  padding-left: 200px;
+  text-transform: uppercase;
+}
+
+.navbar-brand p {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.intro-text p {
+  font-family: "Kaushan Script";
+  font-size: 72px;
+  font-weight: 400;
+  color: white;
+}
+
+.intro-text h1 {
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width:768px) {
+  .intro-text h1 {
+    font-size: 90px;
+  }
+}
+
+.intro-text hr {
+  width: 60px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+#pnav span {
+  text-transform: uppercase;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tealbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.dropbox.com/s/mthcj9279sagxry/tealrectangle.jpg?raw=1");
+}
+
+.tealbar div {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  padding: 30px;
+  color: white;
+}
+
+.aboutus hr {
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+}
+
+.title {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-family: "Kaushan Script";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.aboutus h2 {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px 190px 30px 190px;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.tealbar div p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+/* 
+.nav-link:hover {
+  color: #fce38a;
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fce38a;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 50px;
+} */
